@@ -1,0 +1,41 @@
+body {
+	background:#026a92;
+	color:#92dafc;
+	font:16px Helvetica, Arial, sans-serif;
+	text-shadow: 0 1px black;
+	font-weight:300;
+	margin:0 auto;
+	width:980px;
+}
+
+.icons {
+	margin:0;
+	padding:0;
+	list-style-type:none; 
+}
+
+.icons li {
+	float:left;
+	width:55px;
+	height:55px;
+	background-color:#0398c7;
+	margin:7px;
+	border-radius:12px;
+	box-shadow: 0 3px #03608b;
+	cursor:pointer;
+}
+
+.icons li.active {
+	border:5px solid white;
+	margin:2px;
+}
+
+.icons li:hover {
+	border:2px solid #92dafc;
+	margin:5px;
+}
+
+.icons li.active:hover {
+	border:5px solid #92dafc;
+	margin:2px;
+}
